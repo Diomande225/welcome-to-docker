@@ -1,7 +1,7 @@
 import "./App.css";
 import Confetti from "./Confetti";
 
-const shareMessage = "I just ran my first container using Docker";
+const shareMessage = "I just ran my first Docker container - Modified version by [Votre nom]";
 const shareLink = "https://docker.com/";
 
 const App = () => {
@@ -51,6 +51,9 @@ const App = () => {
             {" "}
           </a>
         </div>
+        <p style={{ fontSize: "14px", marginTop: "30px" }}>
+          Original image by: [Nom de votre collègue]
+        </p>
       </header>
     </div>
   );
